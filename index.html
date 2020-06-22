@@ -6,33 +6,53 @@
     <title>Junior Портфолио</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
-
   <body>
     <header class="page-header">
-      Тел. +7(987)-695-83-07|E-mail. Sa4m@yandex.ru
+	<div class="container">
+      <a class="header-phone" href="tel: +79876958307">+7(987)-695-83-07</a>
+	  <a class="header-email" href="mailto:Sa4m@yandex.ru">Sa4m@yandex.ru</a>
+	  </div>
     </header>
-
     <section class="hero-image">
 		<div class="container">
       <h1 class="heading">Широков Сергей</h1>
       <p>Junior верстальщик</p>
 	  </div>
     </section>
-
-    <section class="intro"><div class="container">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о себе</h3>
-      <p>Я совместно с командой "Htmlacademy.ru" познаю секреты создания сайтов</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>В скорем времени я планирую заняться проектированием сайтов на фрилансе</p>
-	  </div>
+    <section class="intro">
+		<div class="container">
+			<h2 class="subheading">Давайте познакомимся</h2>
+				<figure class="project-image">
+					<img class="centerpick" src="files/Im.jpg" width="555" height="655" alt="Фотография Junior верстальщика">
+				</figure>
+		<div>
+			<h3>Пара слов о себе</h3>
+				<p>Я совместно с командой "Htmlacademy.ru" познаю секреты создания сайтов</p>
+		</div>
+		<div> 
+			<h3>Чем могу быть полезен</h3>
+				<p>В скорем времени я планирую заняться проектированием сайтов на фрилансе</p>
+		</div>
+		<div class="skills">
+		<h3>Мои навыки</h3>
+		<dl class="skills-list">
+			<dt class="skill-html">HTML</dt>
+				<dd class="level" style="width: 60%"><div>60%</div></dd>
+			<dt class="skill-css">CSS</dt>
+				<dd class="level" style="width: 55%"><div>55%</div></dd>
+		</dl>
+		</div>
+		</div>
     </section>
 
     <section class="portfolio"><div class="container">
       <h2 class="subheading">Мои работы</h2>
-
+		<figure class="project-image">
+			<img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+		</figure>
       <h3>Сайт инструктора Кекса</h3>
-      <h4>Небольшой лендинг о школе для начинающих.</h4>
+		<a class="button" href="source/project/index.html">Открыть страницу</a>
+      <p>Мой первый сайт</p>
 	  <p>Htmlacademy помогла мне освоиться в мире IT а именно в вёрстке сайтов. Здесь
 		я научился многому и всё так же продолжаю получать знания из этого источника.
 
@@ -42,7 +62,10 @@
     </section>
 
     <footer class="page-footer">
-     Широков С.А - Тел. +7(987)-695-83-07
+		<div class="container">
+			<a class="footer-email" href="mailto:Sa4m@yandex.ru">Sa4m@yandex.ru</a>
+			<a class="footer-phone" href="tel:+79876958307">+7 987 6958307</a>
+		</div>
     </footer>
   </body>
 </html>
